@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/vanphutin/gitops-lab-01.git
     targetRevision: main
-    path: k8s
+    path: w9/gitops/k8s
   destination:
     server: https://kubernetes.default.svc
     namespace: demo
