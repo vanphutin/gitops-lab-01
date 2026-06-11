@@ -4,8 +4,9 @@ metadata:
   name: web
   namespace: argocd
 spec:
+  project: default
   source:
-    repoURL: https://github.com/<GITHUB_USER>/gitops.git
+    repoURL: https://github.com/vanphutin/gitops.git
     targetRevision: main
     path: k8s
   destination:
